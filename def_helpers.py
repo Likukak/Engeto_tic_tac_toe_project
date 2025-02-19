@@ -1,8 +1,8 @@
 
 def draw_board(spots):
-    separator = "+---+---+---+"  # Oddělovač mezi řádky
-    board_width = 67  # Šířka pro centrování
-    # Zarovnáme každý řádek a celý board
+    separator = "+---+---+---+"  
+    board_width = 67  
+    
     row1 = f"| {spots[1]} | {spots[2]} | {spots[3]} |".center(board_width)
     row2 = f"| {spots[4]} | {spots[5]} | {spots[6]} |".center(board_width)
     row3 = f"| {spots[7]} | {spots[8]} | {spots[9]} |".center(board_width)
